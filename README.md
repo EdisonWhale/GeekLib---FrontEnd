@@ -5,19 +5,41 @@ GeekLib is an AI-enhanced library management system that simplifies book managem
 
 Demo: www.geeklibr.com
 
-Demo admin account #please dont delete oringial books
-account:testuserAdmin@gmail.com
-password:test123456!
+Demo admin account <br>
+#please dont delete oringial books
+
+
+account: testuserAdmin@gmail.com <br>
+password: test123456!
+
 ## Table of Contents
 
 - [Features](#features)
+- [Architecture Diagram](#architecture-diagram)
 - [Installation](#installation)
 - [Usage](#usage)
 - [APIs Used](#apis-used)
 - [License](#license)
 
+## Architecture Diagram
 
-### Features
+
+<img width="2119" alt="39bfe75a61d2c54a4393413b68d9465" src="https://user-images.githubusercontent.com/103423072/232925550-7c142eb0-b7b8-4a79-806b-925f3161fb15.png">
+
+## Home page Preview<br>
+<img src="https://user-images.githubusercontent.com/103423072/232926254-f7d284e2-87c2-4d82-b52b-976b69213187.png" alt="Home page" width="50%">
+
+
+## AI CHATBOT
+<img src="https://user-images.githubusercontent.com/103423072/232925980-2b34e2cb-69b3-41d3-ba24-2c048d517c36.png" alt="AI CHATBOT" width="75%">
+
+
+## Book Mangement
+<img src="https://user-images.githubusercontent.com/103423072/232926124-52af9f4e-7330-4576-9987-0e63a26b38e6.png" alt="Book Management" width="50%">
+
+
+
+## Features
 
 - Full-stack web application built with React and Spring Boot
 - CRUD functionality for library management
