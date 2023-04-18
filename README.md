@@ -10,7 +10,9 @@ Demo: www.geeklibr.com
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [APIs Used](#apis-used)
 - [License](#license)
+
 
 ### Features
 
@@ -23,6 +25,7 @@ Demo: www.geeklibr.com
 - Efficient dependency management with Maven
 - Interaction with MySQL database using Spring Data JPA
 - AI assistance with GPT-3.5 API
+- responsive web design
 
 ## Installation
 
@@ -52,19 +55,22 @@ npm start
 The application will now be running on `http://localhost:3000`.
 
 
-### Usage
+## Usage
 
 You need to set up the enivorent for GeekLib-Backend and mysql database as well.
 
 for more information, please vist GeekLib-Backend repo
 https://github.com/EdisonWhale/GeekLib-Backend.git
 
+## APIs Used
+[GPT-3.5 API](https://openai.com/api/gpt-3/)<br>
+[Okta Auth API](https://developer.okta.com/)
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-Made with ❤️ by Edison
-
+Made with ❤️ by Edison<br>
 www.Edisonwhale.com
 
 Have any question?  
