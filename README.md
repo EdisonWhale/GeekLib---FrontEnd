@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# GeekLib: AI-Enhanced Library Management System ---FrontEnd Part
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GeekLib is an AI-enhanced library management system that simplifies book management and provides users with a seamless experience. The web application is built with React and Spring Boot, offering a range of features, such as CRUD functionality, reviews, comments, and loan/return management. The project is secured with Okta authentication, and payments are processed through Stripe API. The AI assistance is powered by GPT-3.5 API, and the application is deployed on AWS using Amplify and EC2 for CI/CD.
 
-## Available Scripts
 
-In the project directory, you can run:
+Demo: www.geeklibr.com
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Features
 
-### `npm test`
+- Full-stack web application built with React and Spring Boot
+- CRUD functionality for library management
+- Book review and comment system
+- Loan and return management
+- Secure user authentication with Okta auth API and JWT
+- Credit card payment processing with Stripe API
+- Efficient dependency management with Maven
+- Interaction with MySQL database using Spring Data JPA
+- AI assistance with GPT-3.5 API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To get started with GeekLib Chatbot, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:  
+```
+git clone https://github.com/EdisonWhale/GeekLib-FrontEnd.git
+```
+2. Navigate to the project directory and install dependencies:  
+```
+cd GeekLib-FrontEnd
+```
+```
+npm install
+  ```
+3. Set up environment variables for Okta, GPT-3.5 API, backend_API link and database credentials. 
+```
+.env
+```
+ 
+4. Start the development server:  
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will now be running on `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You need to set up the enivorent for GeekLib-Backend and mysql database as well.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+for more information, please vist GeekLib-Backend repo
+https://github.com/EdisonWhale/GeekLib-Backend.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Learn More
+Made with ❤️ by Edison
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+www.Edisonwhale.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Have any question?  
+Email me!  
+Edison@gatech.edu
