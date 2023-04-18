@@ -5,6 +5,9 @@ GeekLib is an AI-enhanced library management system that simplifies book managem
 
 Demo: www.geeklibr.com
 
+Demo admin account #please dont delete oringial books
+account:testuserAdmin@gmail.com
+password:test123456!
 ## Table of Contents
 
 - [Features](#features)
